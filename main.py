@@ -38,7 +38,7 @@ class GameObject:
         return dist < (self.radius + other.radius)
 
 # Pac-Man class inherits GameObject
-class PacMan():#Bug 1
+class PacMan():
     def __init__(self, x, y):
         # Initialize attributes directly without calling the parent class's name or super()
         self.x = x
@@ -53,7 +53,7 @@ class PacMan():#Bug 1
             self.y += dy
 
 # Ghost class inherits GameObject
-class Ghost():#Bug 2
+class Ghost():
     def __init__(self, x, y, color):
         # Initialize attributes directly without calling the parent class's name or super()
         self.x = x
